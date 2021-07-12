@@ -1,7 +1,7 @@
 # Rafael-Home-Task
 
 
-In order to run the scripy,fork it to your local machine and run it.
+In order to run the script,fork it to your local machine and run it.
 
 *Functions available:*
 
