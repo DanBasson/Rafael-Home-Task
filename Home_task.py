@@ -63,7 +63,7 @@ def combine_sorted(
     output_table_name="sorted_names_table",
 ):
     """
-    combined sorted temp tables and export to db.
+    combine sorted temp tables and export to db.
 
     Parameters
     ----------
