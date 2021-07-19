@@ -161,7 +161,7 @@ if __name__ == "__main__":
     processes = []
     sql = "SELECT data FROM ads"
     for chunk in pd.read_sql_query(sql, engine, chunksize=200):
-        p = multiprocessing.Process(target=q3, args=(engine, chunk, i))
+        p = multiprocessing.Process(target=chunk_to_sql, args=(engine, chunk, i))
         p.start()
         processes.append(p)
         i += 1
